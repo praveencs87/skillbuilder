@@ -23,7 +23,7 @@ export async function runInit(options: { targets?: string; style?: string; nonIn
   let createExample: boolean;
   
   if (options.nonInteractive) {
-    targets = (options.targets?.split(',') || ['cursor', 'windsurf']) as EditorTarget[];
+    targets = (options.targets?.split(',').map(t => t.trim()) || ['cursor', 'windsurf']) as EditorTarget[];
     style = options.style || 'balanced';
     createExample = true;
   } else {

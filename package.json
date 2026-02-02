@@ -1,6 +1,6 @@
 {
   "name": "skillbuilder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to create and maintain project-level AI instructions across multiple editors",
   "main": "dist/index.js",
   "bin": {
