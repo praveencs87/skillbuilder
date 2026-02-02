@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.skillbuilder/
+*.log
+.DS_Store
+.env
+.vscode/
+coverage/
